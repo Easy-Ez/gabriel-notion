@@ -1,6 +1,6 @@
 {
   "name": "gabriel-notion",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Read, write and watch Notion through the signed-in web session, with webhook-compatible change events",
   "license": "MIT",
   "author": "EzEasy",

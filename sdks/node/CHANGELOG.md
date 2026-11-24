@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-11-24
+
+- First release published from GitHub Actions with npm Trusted Publishing, with provenance. No
+  code changes since 0.1.0.
+
 ## [0.1.0] - 2026-11-24
 
 First release: read, write and watch Notion through the web session.
