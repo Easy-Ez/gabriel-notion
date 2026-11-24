@@ -1,0 +1,403 @@
+{
+  "description": "A page comment, then an inline comment and a reply.",
+  "source": "Test workspace, 2026-11-20/23 webhook experiments; IDs remapped, text replaced.",
+  "workspaceId": "00000000-0000-4000-8000-00000000a000",
+  "selfUserId": "00000000-0000-4000-8000-000000000002",
+  "records": [
+    {
+      "table": "block",
+      "id": "00000000-0000-4000-8000-000000000007",
+      "role": "editor",
+      "value": {
+        "id": "00000000-0000-4000-8000-000000000007",
+        "version": 52,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "Synthetic title 33"
+            ]
+          ]
+        },
+        "content": [
+          "00000000-0000-4000-8000-000000000019",
+          "00000000-0000-4000-8000-000000000020",
+          "00000000-0000-4000-8000-000000000021"
+        ],
+        "discussions": [
+          "00000000-0000-4000-8000-000000000022"
+        ],
+        "created_time": 1795432990158,
+        "last_edited_time": 1795433039511,
+        "parent_id": "00000000-0000-4000-8000-000000000003",
+        "parent_table": "block",
+        "alive": true,
+        "created_by_table": "notion_user",
+        "created_by_id": "00000000-0000-4000-8000-000000000002",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "00000000-0000-4000-8000-000000000002",
+        "space_id": "00000000-0000-4000-8000-00000000a000",
+        "nav_parent_table": "block",
+        "nav_parent_id": "00000000-0000-4000-8000-000000000003"
+      }
+    },
+    {
+      "table": "discussion",
+      "id": "00000000-0000-4000-8000-000000000052",
+      "role": "editor",
+      "value": {
+        "id": "00000000-0000-4000-8000-000000000052",
+        "version": 2,
+        "parent_id": "00000000-0000-4000-8000-000000000049",
+        "parent_table": "block",
+        "context": [
+          [
+            "red text",
+            [
+              [
+                "m",
+                "00000000-0000-4000-8000-000000000052"
+              ]
+            ]
+          ]
+        ],
+        "resolved": false,
+        "comments": [
+          "00000000-0000-4000-8000-000000000053"
+        ],
+        "space_id": "00000000-0000-4000-8000-00000000a000",
+        "type": "default",
+        "nav_parent_table": "block",
+        "nav_parent_id": "00000000-0000-4000-8000-000000000007"
+      }
+    },
+    {
+      "table": "discussion",
+      "id": "00000000-0000-4000-8000-000000000022",
+      "role": "editor",
+      "value": {
+        "id": "00000000-0000-4000-8000-000000000022",
+        "version": 3,
+        "parent_id": "00000000-0000-4000-8000-000000000007",
+        "parent_table": "block",
+        "resolved": false,
+        "comments": [
+          "00000000-0000-4000-8000-000000000054",
+          "00000000-0000-4000-8000-000000000055"
+        ],
+        "space_id": "00000000-0000-4000-8000-00000000a000",
+        "type": "default",
+        "nav_parent_table": "block",
+        "nav_parent_id": "00000000-0000-4000-8000-000000000007"
+      }
+    },
+    {
+      "table": "block",
+      "id": "00000000-0000-4000-8000-000000000003",
+      "role": "editor",
+      "value": {
+        "id": "00000000-0000-4000-8000-000000000003",
+        "version": 45,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "Synthetic title 34"
+            ]
+          ]
+        },
+        "content": [
+          "00000000-0000-4000-8000-000000000004",
+          "00000000-0000-4000-8000-000000000005",
+          "00000000-0000-4000-8000-000000000006",
+          "00000000-0000-4000-8000-000000000007"
+        ],
+        "discussions": [
+          "00000000-0000-4000-8000-000000000008"
+        ],
+        "created_time": 1795403793990,
+        "last_edited_time": 1795406226226,
+        "parent_id": "00000000-0000-4000-8000-00000000a000",
+        "parent_table": "space",
+        "alive": true,
+        "created_by_table": "notion_user",
+        "created_by_id": "00000000-0000-4000-8000-000000000009",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "00000000-0000-4000-8000-000000000009",
+        "space_id": "00000000-0000-4000-8000-00000000a000",
+        "nav_parent_table": "space",
+        "nav_parent_id": "00000000-0000-4000-8000-00000000a000"
+      }
+    },
+    {
+      "table": "block",
+      "id": "00000000-0000-4000-8000-000000000049",
+      "role": "editor",
+      "value": {
+        "id": "00000000-0000-4000-8000-000000000049",
+        "version": 8,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "Synthetic title 35"
+            ]
+          ]
+        },
+        "discussions": [
+          "00000000-0000-4000-8000-000000000052"
+        ],
+        "created_time": 1795432990159,
+        "last_edited_time": 1795433039509,
+        "parent_id": "00000000-0000-4000-8000-000000000007",
+        "parent_table": "block",
+        "alive": false,
+        "created_by_table": "notion_user",
+        "created_by_id": "00000000-0000-4000-8000-000000000002",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "00000000-0000-4000-8000-000000000002",
+        "space_id": "00000000-0000-4000-8000-00000000a000",
+        "moved_to_trash_table": "notion_user",
+        "moved_to_trash_id": "00000000-0000-4000-8000-000000000002",
+        "moved_to_trash_time": 1795433040204,
+        "nav_parent_table": "block",
+        "nav_parent_id": "00000000-0000-4000-8000-000000000007"
+      }
+    }
+  ],
+  "reads": [
+    {
+      "activities": [
+        {
+          "id": "00000000-0000-4000-8000-000000000056",
+          "version": 1,
+          "index": 0,
+          "type": "commented",
+          "parent_table": "block",
+          "parent_id": "00000000-0000-4000-8000-000000000007",
+          "start_time": "1795433035450",
+          "end_time": "1795433035450",
+          "invalid": false,
+          "space_id": "00000000-0000-4000-8000-00000000a000",
+          "navigable_block_id": "00000000-0000-4000-8000-000000000007",
+          "edits": [
+            {
+              "type": "comment-created",
+              "authors": [
+                {
+                  "id": "00000000-0000-4000-8000-000000000002",
+                  "table": "notion_user"
+                }
+              ],
+              "space_id": "00000000-0000-4000-8000-00000000a000",
+              "timestamp": 1795433035450,
+              "comment_id": "00000000-0000-4000-8000-000000000053",
+              "comment_data": {
+                "id": "00000000-0000-4000-8000-000000000053",
+                "text": [
+                  [
+                    "Synthetic comment 36"
+                  ]
+                ],
+                "alive": true,
+                "version": 1,
+                "space_id": "00000000-0000-4000-8000-00000000a000",
+                "parent_id": "00000000-0000-4000-8000-000000000052",
+                "created_time": 1795433034726,
+                "parent_table": "discussion",
+                "created_by_id": "00000000-0000-4000-8000-000000000002",
+                "nav_parent_id": "00000000-0000-4000-8000-000000000007",
+                "created_by_table": "notion_user",
+                "last_edited_time": 1795433034726,
+                "nav_parent_table": "block"
+              },
+              "discussion_id": "00000000-0000-4000-8000-000000000052",
+              "navigable_block_id": "00000000-0000-4000-8000-000000000007"
+            }
+          ],
+          "discussion_id": "00000000-0000-4000-8000-000000000052",
+          "shard_id": 1
+        },
+        {
+          "id": "00000000-0000-4000-8000-000000000057",
+          "version": 2,
+          "index": 0,
+          "type": "commented",
+          "parent_table": "block",
+          "parent_id": "00000000-0000-4000-8000-000000000007",
+          "start_time": "1795433001706",
+          "end_time": "1795433033172",
+          "invalid": false,
+          "space_id": "00000000-0000-4000-8000-00000000a000",
+          "navigable_block_id": "00000000-0000-4000-8000-000000000007",
+          "edits": [
+            {
+              "type": "comment-created",
+              "authors": [
+                {
+                  "id": "00000000-0000-4000-8000-000000000002",
+                  "table": "notion_user"
+                }
+              ],
+              "space_id": "00000000-0000-4000-8000-00000000a000",
+              "timestamp": 1795433001706,
+              "comment_id": "00000000-0000-4000-8000-000000000054",
+              "comment_data": {
+                "id": "00000000-0000-4000-8000-000000000054",
+                "text": [
+                  [
+                    "Synthetic comment 37"
+                  ]
+                ],
+                "alive": true,
+                "version": 1,
+                "space_id": "00000000-0000-4000-8000-00000000a000",
+                "parent_id": "00000000-0000-4000-8000-000000000022",
+                "created_time": 1795433000979,
+                "parent_table": "discussion",
+                "created_by_id": "00000000-0000-4000-8000-000000000002",
+                "nav_parent_id": "00000000-0000-4000-8000-000000000007",
+                "created_by_table": "notion_user",
+                "last_edited_time": 1795433000979,
+                "nav_parent_table": "block"
+              },
+              "discussion_id": "00000000-0000-4000-8000-000000000022",
+              "navigable_block_id": "00000000-0000-4000-8000-000000000007"
+            },
+            {
+              "type": "comment-created",
+              "authors": [
+                {
+                  "id": "00000000-0000-4000-8000-000000000002",
+                  "table": "notion_user"
+                }
+              ],
+              "space_id": "00000000-0000-4000-8000-00000000a000",
+              "timestamp": 1795433033172,
+              "comment_id": "00000000-0000-4000-8000-000000000055",
+              "comment_data": {
+                "id": "00000000-0000-4000-8000-000000000055",
+                "text": [
+                  [
+                    "Synthetic comment 38"
+                  ]
+                ],
+                "alive": true,
+                "version": 1,
+                "space_id": "00000000-0000-4000-8000-00000000a000",
+                "parent_id": "00000000-0000-4000-8000-000000000022",
+                "created_time": 1795433032365,
+                "parent_table": "discussion",
+                "created_by_id": "00000000-0000-4000-8000-000000000002",
+                "nav_parent_id": "00000000-0000-4000-8000-000000000007",
+                "created_by_table": "notion_user",
+                "last_edited_time": 1795433032365,
+                "nav_parent_table": "block"
+              },
+              "discussion_id": "00000000-0000-4000-8000-000000000022",
+              "navigable_block_id": "00000000-0000-4000-8000-000000000007"
+            }
+          ],
+          "discussion_id": "00000000-0000-4000-8000-000000000022",
+          "shard_id": 1
+        }
+      ],
+      "expected": {
+        "events": [
+          {
+            "id": "fb192f3c-2dd5-0504-d689-9f61e380dabc",
+            "type": "comment.created",
+            "timestamp": "2026-11-23T11:23:21.706Z",
+            "workspaceId": "00000000-0000-4000-8000-00000000a000",
+            "entity": {
+              "id": "00000000-0000-4000-8000-000000000054",
+              "type": "comment"
+            },
+            "authors": [
+              {
+                "id": "00000000-0000-4000-8000-000000000002",
+                "type": "person"
+              }
+            ],
+            "data": {
+              "page_id": "00000000-0000-4000-8000-000000000007",
+              "parent": {
+                "type": "page",
+                "id": "00000000-0000-4000-8000-000000000007"
+              },
+              "discussion_id": "00000000-0000-4000-8000-000000000022"
+            },
+            "origin": "self_other_client",
+            "delivery": "live",
+            "web": {
+              "activityId": "00000000-0000-4000-8000-000000000057",
+              "edits": 1
+            }
+          },
+          {
+            "id": "221adc09-e86b-f1b8-59aa-13df464f3257",
+            "type": "comment.created",
+            "timestamp": "2026-11-23T11:23:53.172Z",
+            "workspaceId": "00000000-0000-4000-8000-00000000a000",
+            "entity": {
+              "id": "00000000-0000-4000-8000-000000000055",
+              "type": "comment"
+            },
+            "authors": [
+              {
+                "id": "00000000-0000-4000-8000-000000000002",
+                "type": "person"
+              }
+            ],
+            "data": {
+              "page_id": "00000000-0000-4000-8000-000000000007",
+              "parent": {
+                "type": "page",
+                "id": "00000000-0000-4000-8000-000000000007"
+              },
+              "discussion_id": "00000000-0000-4000-8000-000000000022"
+            },
+            "origin": "self_other_client",
+            "delivery": "live",
+            "web": {
+              "activityId": "00000000-0000-4000-8000-000000000057",
+              "edits": 1
+            }
+          },
+          {
+            "id": "7949efbe-1089-2b4f-6b92-b725ff49765e",
+            "type": "comment.created",
+            "timestamp": "2026-11-23T11:23:55.450Z",
+            "workspaceId": "00000000-0000-4000-8000-00000000a000",
+            "entity": {
+              "id": "00000000-0000-4000-8000-000000000053",
+              "type": "comment"
+            },
+            "authors": [
+              {
+                "id": "00000000-0000-4000-8000-000000000002",
+                "type": "person"
+              }
+            ],
+            "data": {
+              "page_id": "00000000-0000-4000-8000-000000000007",
+              "parent": {
+                "type": "block",
+                "id": "00000000-0000-4000-8000-000000000049"
+              },
+              "discussion_id": "00000000-0000-4000-8000-000000000052"
+            },
+            "origin": "self_other_client",
+            "delivery": "live",
+            "web": {
+              "activityId": "00000000-0000-4000-8000-000000000056",
+              "edits": 1
+            }
+          }
+        ],
+        "noAccess": [],
+        "drift": []
+      }
+    }
+  ]
+}

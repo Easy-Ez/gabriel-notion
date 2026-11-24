@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gabriel-notion.invalid/schema/view.created.schema.json",
+  "title": "view.created",
+  "allOf": [
+    {
+      "$ref": "event.schema.json"
+    }
+  ],
+  "properties": {
+    "type": {
+      "const": "view.created"
+    },
+    "entity": {
+      "properties": {
+        "type": {
+          "const": "view"
+        }
+      }
+    },
+    "data": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "parent": {
+          "$ref": "event.schema.json#/$defs/parent"
+        },
+        "data_source_id": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "gabriel-notion-monorepo",
+  "private": true,
+  "description": "Gabriel Notion: SDKs that read, write and watch Notion through the web session",
+  "packageManager": "pnpm@9.15.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "pnpm --filter gabriel-notion build",
+    "typecheck": "pnpm --filter gabriel-notion typecheck",
+    "test": "pnpm --filter gabriel-notion test",
+    "leak:check": "node scripts/oss-leak-check.mjs"
+  }
+}

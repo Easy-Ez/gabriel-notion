@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gabriel-notion.invalid/schema/page.properties_updated.schema.json",
+  "title": "page.properties_updated",
+  "allOf": [
+    {
+      "$ref": "event.schema.json"
+    }
+  ],
+  "properties": {
+    "type": {
+      "const": "page.properties_updated"
+    },
+    "entity": {
+      "properties": {
+        "type": {
+          "const": "page"
+        }
+      }
+    },
+    "data": {
+      "type": "object",
+      "required": [
+        "updated_properties"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "parent": {
+          "$ref": "event.schema.json#/$defs/parent"
+        },
+        "updated_properties": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

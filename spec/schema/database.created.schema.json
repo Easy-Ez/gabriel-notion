@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gabriel-notion.invalid/schema/database.created.schema.json",
+  "title": "database.created",
+  "allOf": [
+    {
+      "$ref": "event.schema.json"
+    }
+  ],
+  "properties": {
+    "type": {
+      "const": "database.created"
+    },
+    "entity": {
+      "properties": {
+        "type": {
+          "const": "database"
+        }
+      }
+    },
+    "data": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "parent": {
+          "$ref": "event.schema.json#/$defs/parent"
+        }
+      }
+    }
+  }
+}

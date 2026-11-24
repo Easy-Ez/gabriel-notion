@@ -1,0 +1,991 @@
+{
+ "name": "protocol-test-page",
+ "description": "Web protocol test page: paragraphs with line breaks and brackets, CJK and emoji, inline comment, files, inline databases, headings, lists, quote, code, numbered list, to-do, toggle, callout, divider, equation, table with escaped pipe, columns, synced block",
+ "source": "Web records and official MCP fetch output of a synthetic page, captured 2026-11-23; IDs remapped, user name and email replaced",
+ "rootId": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+ "spaceId": "05e827ee-a6da-4ad3-82e5-b5f9bb06cfdf",
+ "records": {
+  "block": {
+   "24df2eff-920b-4ade-80e6-1e8540e7224f": {
+    "id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "type": "page",
+    "properties": {
+     "title": [
+      [
+       "Ego Lite Web Protocol Test"
+      ]
+     ]
+    },
+    "content": [
+     "53a3e74b-50b7-4fab-80b9-3f3eb6a2d63f",
+     "f35ecf8d-55ef-41e6-843f-2c6b4beccf33",
+     "f2db15bc-c3a6-4c36-874b-41c57d537255",
+     "3dc814a6-38a9-4f56-8801-0359699ceb06",
+     "5417cf7d-1262-499c-8585-a8ebfc2f3696",
+     "dda968b0-54d6-46fc-84ca-3194aa5c849c",
+     "8dc7c37a-2658-4e68-88a5-2cbe36fe0299",
+     "2265a7f8-c13b-40fb-86e3-54d9ede9604c",
+     "922ea59f-3f27-4d87-81ab-06d0eab2b9af",
+     "ad960284-d054-4657-8c35-f9606e94811a",
+     "f89192a1-22a4-4a03-8c99-c0c2af2ebc11",
+     "2801b9c9-d36e-4488-8239-202a642cad68",
+     "22e3e43e-1c94-4c15-844b-b0e40ad37c41",
+     "c30206e3-013d-43dd-828d-56de09a40628",
+     "3498f1ef-0da5-4bae-8cbd-a5188a606012",
+     "302699aa-e636-4d23-8b6c-40c545d16c35",
+     "c93dd0f4-e4c0-4d84-8f5f-f93c188562a7",
+     "c675e630-8e30-4ef6-85c9-a754161e0859",
+     "56e8882a-b2c4-4a86-81e7-6e01684c79b1",
+     "b5cb8675-8df0-498a-8c35-d0baba53c884",
+     "e50e60ee-553d-4681-8892-85433d50ad14",
+     "2c698ca8-c5c2-4bf6-8ae9-77fe81b26f25",
+     "5ebc9e39-0523-486c-8fb8-14e03b4fad04",
+     "44908528-ce2e-4508-83a6-0448a7a2d171",
+     "f13c5606-366c-4902-828d-ecd9ca485f47",
+     "64912b42-4e9a-4a7e-8202-7912e8011b02",
+     "6df82654-89c4-4922-8299-be50b2566285",
+     "bec506c1-da5e-4783-8e84-e5886f2218e3",
+     "a80d8759-56dc-4d7c-87b9-9e1a7475860c",
+     "b444ce14-6eb9-40cd-89e9-a56038ddea82",
+     "f0747302-15e3-48d6-8d84-f042357ba615",
+     "ab7ff90d-79ca-4e7c-8ed5-cc631bf60853",
+     "5bcffa39-59de-449e-87d9-5ada04e51128",
+     "48ec0fe0-75c5-4d10-8fa8-442966df52cb",
+     "b6b05ee1-37a3-4c65-8ae8-fd7d1e5f0931",
+     "9bfbb5d9-2d4a-4d06-8206-9631efb0fe10",
+     "fa11f33c-2e12-4c52-8c15-27d7eb5bfc39",
+     "b7731956-e13a-4a37-8491-320d94ada412",
+     "0aac49d9-17ca-440a-8f60-4c079941a332",
+     "a304ad0c-f9e1-4eec-8612-ae89439148e4",
+     "eaa57925-e08a-423f-8eec-041863430361",
+     "6e5a4d84-1123-410b-834c-12e137976cb4",
+     "9db0c360-f271-4e31-86c8-4b1ca9a13f9e",
+     "62228201-92e7-43db-85d6-1949dbe9b5de",
+     "585dbe50-c521-4188-8d9c-3c6938247e91",
+     "b5e66549-ff01-48d1-8b80-fc8b8ccaeafa",
+     "9197ab79-a04a-47a5-8b17-a6f98768ce6f"
+    ],
+    "parent_id": "05e827ee-a6da-4ad3-82e5-b5f9bb06cfdf",
+    "parent_table": "space",
+    "alive": true
+   },
+   "53a3e74b-50b7-4fab-80b9-3f3eb6a2d63f": {
+    "id": "53a3e74b-50b7-4fab-80b9-3f3eb6a2d63f",
+    "type": "text",
+    "properties": {
+     "title": [
+      [
+       "cobaltfennecquartz verdantwalrus orchidlynx protocolbaseline httpwriteconfirmed"
+      ]
+     ]
+    },
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "f35ecf8d-55ef-41e6-843f-2c6b4beccf33": {
+    "id": "f35ecf8d-55ef-41e6-843f-2c6b4beccf33",
+    "type": "text",
+    "properties": {
+     "title": [
+      [
+       "Node WebSocket 专用段落 e0863b30 在线-A 断线-B 断线-C 重连-D"
+      ]
+     ]
+    },
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "f2db15bc-c3a6-4c36-874b-41c57d537255": {
+    "id": "f2db15bc-c3a6-4c36-874b-41c57d537255",
+    "type": "text",
+    "properties": {
+     "title": [
+      [
+       "[AUTH-13][AUTH-12][AUTH-11][AUTH-10][AUTH-09][AUTH-08][AUTH-07][AUTH-06][AUTH-05][AUTH-04][AUTH-03][AUTH-01]AUTH Protocol dedicated 2026-11-16"
+      ]
+     ]
+    },
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "3dc814a6-38a9-4f56-8801-0359699ceb06": {
+    "id": "3dc814a6-38a9-4f56-8801-0359699ceb06",
+    "type": "text",
+    "properties": {
+     "title": [
+      [
+       "Ego Lite native paste anchor\nEgo Lite native nonempty control"
+      ]
+     ]
+    },
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "5417cf7d-1262-499c-8585-a8ebfc2f3696": {
+    "id": "5417cf7d-1262-499c-8585-a8ebfc2f3696",
+    "type": "text",
+    "properties": {
+     "title": [
+      [
+       "Ego Lite native nonempty control two"
+      ]
+     ]
+    },
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "dda968b0-54d6-46fc-84ca-3194aa5c849c": {
+    "id": "dda968b0-54d6-46fc-84ca-3194aa5c849c",
+    "type": "text",
+    "properties": {
+     "title": [
+      [
+       "Ego Lite native multiline anchor\nEgo Lite native nonempty control three"
+      ]
+     ]
+    },
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "8dc7c37a-2658-4e68-88a5-2cbe36fe0299": {
+    "id": "8dc7c37a-2658-4e68-88a5-2cbe36fe0299",
+    "type": "text",
+    "properties": {
+     "title": [
+      [
+       "Ego Lite native multiline anchor\nEgo Lite native nonempty control four"
+      ]
+     ]
+    },
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "2265a7f8-c13b-40fb-86e3-54d9ede9604c": {
+    "id": "2265a7f8-c13b-40fb-86e3-54d9ede9604c",
+    "type": "text",
+    "properties": {
+     "title": [
+      [
+       "Ego Lite exact control anchor\nEgo Lite HTTP exact native transaction"
+      ]
+     ]
+    },
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "922ea59f-3f27-4d87-81ab-06d0eab2b9af": {
+    "id": "922ea59f-3f27-4d87-81ab-06d0eab2b9af",
+    "type": "text",
+    "properties": {
+     "title": [
+      [
+       "Ego Lite exact control anchor\nEgo Lite HTTP without debug control"
+      ]
+     ]
+    },
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "ad960284-d054-4657-8c35-f9606e94811a": {
+    "id": "ad960284-d054-4657-8c35-f9606e94811a",
+    "type": "text",
+    "properties": {
+     "title": [
+      [
+       "Ego Lite exact control anchor\nEgo Lite HTTP CRDT initializer control"
+      ]
+     ]
+    },
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "f89192a1-22a4-4a03-8c99-c0c2af2ebc11": {
+    "id": "f89192a1-22a4-4a03-8c99-c0c2af2ebc11",
+    "type": "text",
+    "properties": {
+     "title": [
+      [
+       "Ego Lite from-zero HTTP paragraph 20261116"
+      ]
+     ]
+    },
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "2801b9c9-d36e-4488-8239-202a642cad68": {
+    "id": "2801b9c9-d36e-4488-8239-202a642cad68",
+    "type": "text",
+    "properties": {
+     "title": [
+      [
+       "Ego Lite UUID and CRDT dependency control 20261116"
+      ]
+     ]
+    },
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "22e3e43e-1c94-4c15-844b-b0e40ad37c41": {
+    "id": "22e3e43e-1c94-4c15-844b-b0e40ad37c41",
+    "type": "text",
+    "properties": {
+     "title": [
+      [
+       "Ego Lite independent HTTP paragraph 20261116"
+      ]
+     ]
+    },
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "c30206e3-013d-43dd-828d-56de09a40628": {
+    "id": "c30206e3-013d-43dd-828d-56de09a40628",
+    "type": "text",
+    "properties": {
+     "title": [
+      [
+       "甲替🇸🇬丁"
+      ]
+     ]
+    },
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "3498f1ef-0da5-4bae-8cbd-a5188a606012": {
+    "id": "3498f1ef-0da5-4bae-8cbd-a5188a606012",
+    "type": "text",
+    "properties": {
+     "title": [
+      [
+       "甲中🧪右🇸🇬丙丁"
+      ]
+     ]
+    },
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "302699aa-e636-4d23-8b6c-40c545d16c35": {
+    "id": "302699aa-e636-4d23-8b6c-40c545d16c35",
+    "type": "text",
+    "properties": {
+     "title": [
+      [
+       "甲中🧪右🇸🇬丙丁"
+      ]
+     ]
+    },
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "c93dd0f4-e4c0-4d84-8f5f-f93c188562a7": {
+    "id": "c93dd0f4-e4c0-4d84-8f5f-f93c188562a7",
+    "type": "text",
+    "properties": {
+     "title": [
+      [
+       "同锚并发 左锚甲乙右"
+      ]
+     ]
+    },
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "c675e630-8e30-4ef6-85c9-a754161e0859": {
+    "id": "c675e630-8e30-4ef6-85c9-a754161e0859",
+    "type": "text",
+    "properties": {
+     "title": [
+      [
+       "同锚顺序一 左锚乙甲右"
+      ]
+     ]
+    },
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "56e8882a-b2c4-4a86-81e7-6e01684c79b1": {
+    "id": "56e8882a-b2c4-4a86-81e7-6e01684c79b1",
+    "type": "text",
+    "properties": {
+     "title": [
+      [
+       "同锚顺序二 左锚乙甲右"
+      ]
+     ]
+    },
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "b5cb8675-8df0-498a-8c35-d0baba53c884": {
+    "id": "b5cb8675-8df0-498a-8c35-d0baba53c884",
+    "type": "text",
+    "properties": {
+     "title": [
+      [
+       "重放 左锚回"
+      ]
+     ]
+    },
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "e50e60ee-553d-4681-8892-85433d50ad14": {
+    "id": "e50e60ee-553d-4681-8892-85433d50ad14",
+    "type": "text",
+    "properties": {
+     "title": [
+      [
+       "重连 左锚在线甲右离线乙",
+       [
+        [
+         "m",
+         "6a5e2a03-e9d0-4bfc-851d-49b19a071a25"
+        ]
+       ]
+      ],
+      [
+       " SuggestedLinden"
+      ]
+     ]
+    },
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "2c698ca8-c5c2-4bf6-8ae9-77fe81b26f25": {
+    "id": "2c698ca8-c5c2-4bf6-8ae9-77fe81b26f25",
+    "type": "file",
+    "properties": {
+     "size": [
+      [
+       "47 B"
+      ]
+     ],
+     "title": [
+      [
+       "kestrel-notion-fixture.txt"
+      ]
+     ],
+     "source": [
+      [
+       "attachment:3f4312e6-e6d9-4317-8f67-1634b42d1c06:kestrel-notion-fixture.txt"
+      ]
+     ]
+    },
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "5ebc9e39-0523-486c-8fb8-14e03b4fad04": {
+    "id": "5ebc9e39-0523-486c-8fb8-14e03b4fad04",
+    "type": "collection_view",
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "collection_id": "1c24a0b5-1a65-457c-867b-1e7fbe0fa39d",
+    "alive": true
+   },
+   "44908528-ce2e-4508-83a6-0448a7a2d171": {
+    "id": "44908528-ce2e-4508-83a6-0448a7a2d171",
+    "type": "sub_header",
+    "properties": {
+     "title": [
+      [
+       "协议对照标题 KoiMarkdown1611"
+      ]
+     ]
+    },
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "f13c5606-366c-4902-828d-ecd9ca485f47": {
+    "id": "f13c5606-366c-4902-828d-ecd9ca485f47",
+    "type": "text",
+    "properties": {
+     "title": [
+      [
+       "普通 "
+      ],
+      [
+       "粗体示例",
+       [
+        [
+         "b"
+        ]
+       ]
+      ],
+      [
+       " "
+      ],
+      [
+       "斜体示例",
+       [
+        [
+         "i"
+        ]
+       ]
+      ],
+      [
+       " "
+      ],
+      [
+       "链接示例",
+       [
+        [
+         "a",
+         "https://example.com/"
+        ]
+       ]
+      ]
+     ]
+    },
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "64912b42-4e9a-4a7e-8202-7912e8011b02": {
+    "id": "64912b42-4e9a-4a7e-8202-7912e8011b02",
+    "type": "bulleted_list",
+    "properties": {
+     "title": [
+      [
+       "父列表项"
+      ]
+     ]
+    },
+    "content": [
+     "b24b5070-a702-452d-8122-6b55e5083235"
+    ],
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "6df82654-89c4-4922-8299-be50b2566285": {
+    "id": "6df82654-89c4-4922-8299-be50b2566285",
+    "type": "quote",
+    "properties": {
+     "title": [
+      [
+       "引用示例"
+      ]
+     ]
+    },
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "bec506c1-da5e-4783-8e84-e5886f2218e3": {
+    "id": "bec506c1-da5e-4783-8e84-e5886f2218e3",
+    "type": "code",
+    "properties": {
+     "title": [
+      [
+       "echo notion-fixture"
+      ]
+     ],
+     "language": [
+      [
+       "Plain Text"
+      ]
+     ]
+    },
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "a80d8759-56dc-4d7c-87b9-9e1a7475860c": {
+    "id": "a80d8759-56dc-4d7c-87b9-9e1a7475860c",
+    "type": "sub_header",
+    "properties": {
+     "title": [
+      [
+       "Direct rich heading Koifin1611"
+      ]
+     ]
+    },
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "b444ce14-6eb9-40cd-89e9-a56038ddea82": {
+    "id": "b444ce14-6eb9-40cd-89e9-a56038ddea82",
+    "type": "text",
+    "properties": {
+     "title": [
+      [
+       "起始 "
+      ],
+      [
+       "HTTP粗体",
+       [
+        [
+         "b"
+        ]
+       ]
+      ],
+      [
+       " "
+      ],
+      [
+       "HTTP斜体",
+       [
+        [
+         "i"
+        ]
+       ]
+      ],
+      [
+       " "
+      ],
+      [
+       "HTTP链接",
+       [
+        [
+         "a",
+         "https://example.com/"
+        ]
+       ]
+      ]
+     ]
+    },
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "f0747302-15e3-48d6-8d84-f042357ba615": {
+    "id": "f0747302-15e3-48d6-8d84-f042357ba615",
+    "type": "bulleted_list",
+    "properties": {
+     "title": [
+      [
+       "HTTP父列表"
+      ]
+     ]
+    },
+    "content": [
+     "3d7cefcb-57ec-441c-89ae-b3b292137d42"
+    ],
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "ab7ff90d-79ca-4e7c-8ed5-cc631bf60853": {
+    "id": "ab7ff90d-79ca-4e7c-8ed5-cc631bf60853",
+    "type": "header",
+    "properties": {
+     "title": [
+      [
+       "EgoMarkdown-H1-Linden"
+      ]
+     ]
+    },
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "5bcffa39-59de-449e-87d9-5ada04e51128": {
+    "id": "5bcffa39-59de-449e-87d9-5ada04e51128",
+    "type": "numbered_list",
+    "properties": {
+     "title": [
+      [
+       "EgoMarkdown-Ordered-1"
+      ]
+     ]
+    },
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "48ec0fe0-75c5-4d10-8fa8-442966df52cb": {
+    "id": "48ec0fe0-75c5-4d10-8fa8-442966df52cb",
+    "type": "to_do",
+    "properties": {
+     "title": [
+      [
+       "EgoMarkdown-Checked"
+      ]
+     ],
+     "checked": [
+      [
+       "Yes"
+      ]
+     ]
+    },
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "b6b05ee1-37a3-4c65-8ae8-fd7d1e5f0931": {
+    "id": "b6b05ee1-37a3-4c65-8ae8-fd7d1e5f0931",
+    "type": "toggle",
+    "properties": {
+     "title": [
+      [
+       "EgoMarkdown-Toggle"
+      ]
+     ]
+    },
+    "content": [
+     "78a82806-9644-42a9-8b70-b2348801a6f4"
+    ],
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "9bfbb5d9-2d4a-4d06-8206-9631efb0fe10": {
+    "id": "9bfbb5d9-2d4a-4d06-8206-9631efb0fe10",
+    "type": "callout",
+    "properties": {
+     "title": [
+      [
+       "EgoMarkdown-Callout"
+      ]
+     ]
+    },
+    "format": {
+     "page_icon": "💡"
+    },
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "fa11f33c-2e12-4c52-8c15-27d7eb5bfc39": {
+    "id": "fa11f33c-2e12-4c52-8c15-27d7eb5bfc39",
+    "type": "divider",
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "b7731956-e13a-4a37-8491-320d94ada412": {
+    "id": "b7731956-e13a-4a37-8491-320d94ada412",
+    "type": "text",
+    "properties": {
+     "title": [
+      [
+       "EgoMarkdown-Duplicate-Updated-CrossA"
+      ]
+     ]
+    },
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "0aac49d9-17ca-440a-8f60-4c079941a332": {
+    "id": "0aac49d9-17ca-440a-8f60-4c079941a332",
+    "type": "text",
+    "properties": {
+     "title": [
+      [
+       "EgoMarkdown-Duplicate-Updated-CrossB"
+      ]
+     ]
+    },
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "a304ad0c-f9e1-4eec-8612-ae89439148e4": {
+    "id": "a304ad0c-f9e1-4eec-8612-ae89439148e4",
+    "type": "text",
+    "properties": {
+     "title": [
+      [
+       "EgoMarkdown-Unique-Old HTTP Suggestion Linden"
+      ]
+     ]
+    },
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "eaa57925-e08a-423f-8eec-041863430361": {
+    "id": "eaa57925-e08a-423f-8eec-041863430361",
+    "type": "equation",
+    "properties": {
+     "title": [
+      [
+       "x^2 + y^2"
+      ]
+     ]
+    },
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "6e5a4d84-1123-410b-834c-12e137976cb4": {
+    "id": "6e5a4d84-1123-410b-834c-12e137976cb4",
+    "type": "file",
+    "properties": {
+     "size": [
+      [
+       "58 B"
+      ]
+     ],
+     "title": [
+      [
+       "ego-http-attachment-linden.txt"
+      ]
+     ],
+     "source": [
+      [
+       "attachment:3ba0a45b-042c-461b-8ed8-7a084ff81a87:ego-http-attachment-linden.txt"
+      ]
+     ]
+    },
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "9db0c360-f271-4e31-86c8-4b1ca9a13f9e": {
+    "id": "9db0c360-f271-4e31-86c8-4b1ca9a13f9e",
+    "type": "collection_view",
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "collection_id": "58451050-9fdf-44b4-8982-d31b126de332",
+    "alive": true
+   },
+   "62228201-92e7-43db-85d6-1949dbe9b5de": {
+    "id": "62228201-92e7-43db-85d6-1949dbe9b5de",
+    "type": "text",
+    "properties": {
+     "title": [
+      [
+       "Node 独立会话读写与登出验证 0bd5d9b8"
+      ]
+     ]
+    },
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "585dbe50-c521-4188-8d9c-3c6938247e91": {
+    "id": "585dbe50-c521-4188-8d9c-3c6938247e91",
+    "type": "table",
+    "format": {
+     "table_block_column_order": [
+      "zP3A",
+      "gK8B"
+     ],
+     "table_block_column_header": true
+    },
+    "content": [
+     "31fb0516-6a3f-4bd8-8302-24d15a57aaaa",
+     "e0a42a80-8c55-4bad-8299-b0dd0899648a"
+    ],
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "b5e66549-ff01-48d1-8b80-fc8b8ccaeafa": {
+    "id": "b5e66549-ff01-48d1-8b80-fc8b8ccaeafa",
+    "type": "column_list",
+    "content": [
+     "a9734560-6a14-4dcf-8819-6dc13fc43375",
+     "f4233021-1920-452f-8840-97e2f38b2590"
+    ],
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "9197ab79-a04a-47a5-8b17-a6f98768ce6f": {
+    "id": "9197ab79-a04a-47a5-8b17-a6f98768ce6f",
+    "type": "transclusion_container",
+    "content": [
+     "9312ee2e-87bd-409f-8dd5-e2a57ba5cc7e"
+    ],
+    "parent_id": "24df2eff-920b-4ade-80e6-1e8540e7224f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "b24b5070-a702-452d-8122-6b55e5083235": {
+    "id": "b24b5070-a702-452d-8122-6b55e5083235",
+    "type": "bulleted_list",
+    "properties": {
+     "title": [
+      [
+       "子列表项"
+      ]
+     ]
+    },
+    "parent_id": "64912b42-4e9a-4a7e-8202-7912e8011b02",
+    "parent_table": "block",
+    "alive": true
+   },
+   "3d7cefcb-57ec-441c-89ae-b3b292137d42": {
+    "id": "3d7cefcb-57ec-441c-89ae-b3b292137d42",
+    "type": "bulleted_list",
+    "properties": {
+     "title": [
+      [
+       "HTTP子列表"
+      ]
+     ]
+    },
+    "parent_id": "f0747302-15e3-48d6-8d84-f042357ba615",
+    "parent_table": "block",
+    "alive": true
+   },
+   "78a82806-9644-42a9-8b70-b2348801a6f4": {
+    "id": "78a82806-9644-42a9-8b70-b2348801a6f4",
+    "type": "text",
+    "properties": {
+     "title": [
+      [
+       "EgoMarkdown-Toggle-Child"
+      ]
+     ]
+    },
+    "parent_id": "b6b05ee1-37a3-4c65-8ae8-fd7d1e5f0931",
+    "parent_table": "block",
+    "alive": true
+   },
+   "31fb0516-6a3f-4bd8-8302-24d15a57aaaa": {
+    "id": "31fb0516-6a3f-4bd8-8302-24d15a57aaaa",
+    "type": "table_row",
+    "properties": {
+     "gK8B": [
+      [
+       "Value"
+      ]
+     ],
+     "zP3A": [
+      [
+       "Name"
+      ]
+     ]
+    },
+    "parent_id": "585dbe50-c521-4188-8d9c-3c6938247e91",
+    "parent_table": "block",
+    "alive": true
+   },
+   "e0a42a80-8c55-4bad-8299-b0dd0899648a": {
+    "id": "e0a42a80-8c55-4bad-8299-b0dd0899648a",
+    "type": "table_row",
+    "properties": {
+     "gK8B": [
+      [
+       "42"
+      ]
+     ],
+     "zP3A": [
+      [
+       "Ego | Linden"
+      ]
+     ]
+    },
+    "parent_id": "585dbe50-c521-4188-8d9c-3c6938247e91",
+    "parent_table": "block",
+    "alive": true
+   },
+   "a9734560-6a14-4dcf-8819-6dc13fc43375": {
+    "id": "a9734560-6a14-4dcf-8819-6dc13fc43375",
+    "type": "column",
+    "format": {
+     "column_ratio": 0.5
+    },
+    "content": [
+     "9e457d53-f3c4-4656-8dcd-df35a76fde5c"
+    ],
+    "parent_id": "b5e66549-ff01-48d1-8b80-fc8b8ccaeafa",
+    "parent_table": "block",
+    "alive": true
+   },
+   "f4233021-1920-452f-8840-97e2f38b2590": {
+    "id": "f4233021-1920-452f-8840-97e2f38b2590",
+    "type": "column",
+    "format": {
+     "column_ratio": 0.5
+    },
+    "content": [
+     "a6e6983a-57d6-44e9-8384-5d3f02429a63"
+    ],
+    "parent_id": "b5e66549-ff01-48d1-8b80-fc8b8ccaeafa",
+    "parent_table": "block",
+    "alive": true
+   },
+   "9312ee2e-87bd-409f-8dd5-e2a57ba5cc7e": {
+    "id": "9312ee2e-87bd-409f-8dd5-e2a57ba5cc7e",
+    "type": "text",
+    "properties": {
+     "title": [
+      [
+       "Ego original synced child"
+      ]
+     ]
+    },
+    "parent_id": "9197ab79-a04a-47a5-8b17-a6f98768ce6f",
+    "parent_table": "block",
+    "alive": true
+   },
+   "9e457d53-f3c4-4656-8dcd-df35a76fde5c": {
+    "id": "9e457d53-f3c4-4656-8dcd-df35a76fde5c",
+    "type": "text",
+    "properties": {
+     "title": [
+      [
+       "Ego column left"
+      ]
+     ]
+    },
+    "parent_id": "a9734560-6a14-4dcf-8819-6dc13fc43375",
+    "parent_table": "block",
+    "alive": true
+   },
+   "a6e6983a-57d6-44e9-8384-5d3f02429a63": {
+    "id": "a6e6983a-57d6-44e9-8384-5d3f02429a63",
+    "type": "text",
+    "properties": {
+     "title": [
+      [
+       "Ego column right"
+      ]
+     ]
+    },
+    "parent_id": "f4233021-1920-452f-8840-97e2f38b2590",
+    "parent_table": "block",
+    "alive": true
+   }
+  },
+  "notion_user": {},
+  "collection": {
+   "1c24a0b5-1a65-457c-867b-1e7fbe0fa39d": {
+    "id": "1c24a0b5-1a65-457c-867b-1e7fbe0fa39d",
+    "name": [
+     [
+      "Ego Lite compat DB Fir1611"
+     ]
+    ]
+   },
+   "58451050-9fdf-44b4-8982-d31b126de332": {
+    "id": "58451050-9fdf-44b4-8982-d31b126de332",
+    "name": [
+     [
+      "Ego Lite compat DB Cedar, synthetic"
+     ]
+    ]
+   }
+  }
+ },
+ "markdown": "cobaltfennecquartz verdantwalrus orchidlynx protocolbaseline httpwriteconfirmed\n\nNode WebSocket 专用段落 e0863b30 在线-A 断线-B 断线-C 重连-D\n\n\\[AUTH-13\\]\\[AUTH-12\\]\\[AUTH-11\\]\\[AUTH-10\\]\\[AUTH-09\\]\\[AUTH-08\\]\\[AUTH-07\\]\\[AUTH-06\\]\\[AUTH-05\\]\\[AUTH-04\\]\\[AUTH-03\\]\\[AUTH-01\\]AUTH Protocol dedicated 2026-11-16\n\nEgo Lite native paste anchor<br />Ego Lite native nonempty control\n\nEgo Lite native nonempty control two\n\nEgo Lite native multiline anchor<br />Ego Lite native nonempty control three\n\nEgo Lite native multiline anchor<br />Ego Lite native nonempty control four\n\nEgo Lite exact control anchor<br />Ego Lite HTTP exact native transaction\n\nEgo Lite exact control anchor<br />Ego Lite HTTP without debug control\n\nEgo Lite exact control anchor<br />Ego Lite HTTP CRDT initializer control\n\nEgo Lite from-zero HTTP paragraph 20261116\n\nEgo Lite UUID and CRDT dependency control 20261116\n\nEgo Lite independent HTTP paragraph 20261116\n\n甲替🇸🇬丁\n\n甲中🧪右🇸🇬丙丁\n\n甲中🧪右🇸🇬丙丁\n\n同锚并发 左锚甲乙右\n\n同锚顺序一 左锚乙甲右\n\n同锚顺序二 左锚乙甲右\n\n重放 左锚回\n\n<span discussion-urls=\"discussion://24df2eff-920b-4ade-80e6-1e8540e7224f/e50e60ee-553d-4681-8892-85433d50ad14/6a5e2a03-e9d0-4bfc-851d-49b19a071a25\">重连 左锚在线甲右离线乙</span> SuggestedLinden\n\n<file source=\"notion-file-block://2c698ca8-c5c2-4bf6-8ae9-77fe81b26f25/3f4312e6-e6d9-4317-8f67-1634b42d1c06?space_id=05e827ee-a6da-4ad3-82e5-b5f9bb06cfdf&name=kestrel-notion-fixture.txt\" />\n\n<database url=\"https://app.notion.com/p/5ebc9e390523486c8fb814e03b4fad04\" data-source-url=\"collection://1c24a0b5-1a65-457c-867b-1e7fbe0fa39d\" inline=\"true\">\nEgo Lite compat DB Fir1611\n</database>\n\n## 协议对照标题 KoiMarkdown1611\n\n普通 <b>粗体示例</b> <i>斜体示例</i> [链接示例](https://example.com/)\n\n- 父列表项\n  - 子列表项\n\n> 引用示例\n\n```txt\necho notion-fixture\n```\n\n## Direct rich heading Koifin1611\n\n起始 <b>HTTP粗体</b> <i>HTTP斜体</i> [HTTP链接](https://example.com/)\n\n- HTTP父列表\n  - HTTP子列表\n\n# EgoMarkdown-H1-Linden\n\n1. EgoMarkdown-Ordered-1\n\n- [x] EgoMarkdown-Checked\n\n<toggle>\nEgoMarkdown-Toggle\n\nEgoMarkdown-Toggle-Child\n</toggle>\n\n<callout icon=\"💡\">\nEgoMarkdown-Callout\n</callout>\n\n---\n\nEgoMarkdown-Duplicate-Updated-CrossA\n\nEgoMarkdown-Duplicate-Updated-CrossB\n\nEgoMarkdown-Unique-Old HTTP Suggestion Linden\n\n$$\nx^2 + y^2\n$$\n\n<file source=\"notion-file-block://6e5a4d84-1123-410b-834c-12e137976cb4/3ba0a45b-042c-461b-8ed8-7a084ff81a87?space_id=05e827ee-a6da-4ad3-82e5-b5f9bb06cfdf&name=ego-http-attachment-linden.txt\" />\n\n<database url=\"https://app.notion.com/p/9db0c360f2714e3186c84b1ca9a13f9e\" data-source-url=\"collection://58451050-9fdf-44b4-8982-d31b126de332\" inline=\"true\">\nEgo Lite compat DB Cedar, synthetic\n</database>\n\nNode 独立会话读写与登出验证 0bd5d9b8\n\n| Name | Value |\n| --- | --- |\n| Ego \\| Linden | 42 |\n\n<columns>\n<column ratio=\"50\">\nEgo column left\n</column>\n<column ratio=\"50\">\nEgo column right\n</column>\n</columns>\n\n<synced-block url=\"https://app.notion.com/p/24df2eff920b4ade80e61e8540e7224f#9197ab79a04a47a58b17a6f98768ce6f\">\nEgo original synced child\n</synced-block>"
+}

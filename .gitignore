@@ -1,0 +1,17 @@
+node_modules/
+dist/
+coverage/
+*.tgz
+*.log
+.DS_Store
+.env
+.env.*
+# FileStateStore default directory and local credential files must never be committed
+.gabriel-notion/
+*.cookies.json
+
+# Private research and process material (Easy-Ez/gabriel-notion-internal); never commit
+internal/
+
+# Local-only leak-check word list (contains the very identifiers it guards against)
+.oss-denylist.txt

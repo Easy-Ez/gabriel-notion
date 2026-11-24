@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gabriel-notion.invalid/schema/comment.created.schema.json",
+  "title": "comment.created",
+  "allOf": [
+    {
+      "$ref": "event.schema.json"
+    }
+  ],
+  "properties": {
+    "type": {
+      "const": "comment.created"
+    },
+    "entity": {
+      "properties": {
+        "type": {
+          "const": "comment"
+        }
+      }
+    },
+    "data": {
+      "type": "object",
+      "required": [
+        "page_id"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "page_id": {
+          "type": "string"
+        },
+        "parent": {
+          "$ref": "event.schema.json#/$defs/parent"
+        },
+        "discussion_id": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

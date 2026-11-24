@@ -1,0 +1,202 @@
+{
+  "description": "A view added to an inline database.",
+  "source": "Test workspace, 2026-11-20/23 webhook experiments; IDs remapped, text replaced.",
+  "workspaceId": "00000000-0000-4000-8000-00000000a000",
+  "selfUserId": "00000000-0000-4000-8000-000000000002",
+  "records": [
+    {
+      "table": "block",
+      "id": "00000000-0000-4000-8000-000000000006",
+      "role": "editor",
+      "value": {
+        "id": "00000000-0000-4000-8000-000000000006",
+        "version": 4,
+        "type": "collection_view",
+        "view_ids": [
+          "00000000-0000-4000-8000-000000000015"
+        ],
+        "collection_id": "00000000-0000-4000-8000-000000000016",
+        "created_time": 1795404097000,
+        "last_edited_time": 1795404097000,
+        "parent_id": "00000000-0000-4000-8000-000000000003",
+        "parent_table": "block",
+        "alive": true,
+        "created_by_table": "notion_user",
+        "created_by_id": "00000000-0000-4000-8000-000000000009",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "00000000-0000-4000-8000-000000000009",
+        "space_id": "00000000-0000-4000-8000-00000000a000",
+        "nav_parent_table": "block",
+        "nav_parent_id": "00000000-0000-4000-8000-000000000003"
+      }
+    },
+    {
+      "table": "collection",
+      "id": "00000000-0000-4000-8000-000000000016",
+      "role": "editor",
+      "value": {
+        "id": "00000000-0000-4000-8000-000000000016",
+        "version": 5,
+        "name": [
+          [
+            "Synthetic name 56"
+          ]
+        ],
+        "schema": {
+          "note": {
+            "name": "Note",
+            "type": "text"
+          },
+          "title": {
+            "name": "Name",
+            "type": "title"
+          }
+        },
+        "parent_id": "00000000-0000-4000-8000-000000000006",
+        "parent_table": "block",
+        "alive": true,
+        "migrated": true,
+        "space_id": "00000000-0000-4000-8000-00000000a000",
+        "deleted_schema": {
+          "wh2p": {
+            "name": "WH2 prop renamed",
+            "type": "text"
+          }
+        },
+        "created_time": 1795404097527,
+        "last_edited_time": 1795404097527,
+        "created_by_table": "notion_user",
+        "created_by_id": "00000000-0000-4000-8000-000000000009",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "00000000-0000-4000-8000-000000000009",
+        "nav_parent_table": "block",
+        "nav_parent_id": "00000000-0000-4000-8000-000000000006"
+      }
+    },
+    {
+      "table": "block",
+      "id": "00000000-0000-4000-8000-000000000003",
+      "role": "editor",
+      "value": {
+        "id": "00000000-0000-4000-8000-000000000003",
+        "version": 45,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "Synthetic title 57"
+            ]
+          ]
+        },
+        "content": [
+          "00000000-0000-4000-8000-000000000004",
+          "00000000-0000-4000-8000-000000000005",
+          "00000000-0000-4000-8000-000000000006",
+          "00000000-0000-4000-8000-000000000007"
+        ],
+        "discussions": [
+          "00000000-0000-4000-8000-000000000008"
+        ],
+        "created_time": 1795403793990,
+        "last_edited_time": 1795406226226,
+        "parent_id": "00000000-0000-4000-8000-00000000a000",
+        "parent_table": "space",
+        "alive": true,
+        "created_by_table": "notion_user",
+        "created_by_id": "00000000-0000-4000-8000-000000000009",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "00000000-0000-4000-8000-000000000009",
+        "space_id": "00000000-0000-4000-8000-00000000a000",
+        "nav_parent_table": "space",
+        "nav_parent_id": "00000000-0000-4000-8000-00000000a000"
+      }
+    }
+  ],
+  "reads": [
+    {
+      "activities": [
+        {
+          "id": "00000000-0000-4000-8000-000000000072",
+          "version": 2,
+          "index": 0,
+          "type": "collection-view-edited",
+          "parent_table": "block",
+          "parent_id": "00000000-0000-4000-8000-000000000006",
+          "start_time": "1795404097551",
+          "end_time": "1795404188718",
+          "invalid": false,
+          "space_id": "00000000-0000-4000-8000-00000000a000",
+          "navigable_block_id": "00000000-0000-4000-8000-000000000006",
+          "collection_id": "00000000-0000-4000-8000-000000000016",
+          "edits": [
+            {
+              "type": "collection-view-created",
+              "authors": [
+                {
+                  "id": "00000000-0000-4000-8000-000000000009",
+                  "table": "notion_user"
+                }
+              ],
+              "space_id": "00000000-0000-4000-8000-00000000a000",
+              "timestamp": 1795404188718,
+              "block_schema": {
+                "note": {
+                  "name": "Note",
+                  "type": "text"
+                },
+                "title": {
+                  "name": "Name",
+                  "type": "title"
+                }
+              },
+              "collection_id": "00000000-0000-4000-8000-000000000016",
+              "collection_view_id": "00000000-0000-4000-8000-000000000015",
+              "navigable_block_id": "00000000-0000-4000-8000-000000000006",
+              "collection_view_data": {
+                "name": "Table renamed",
+                "type": "table"
+              }
+            }
+          ],
+          "collection_view_id": "00000000-0000-4000-8000-000000000015",
+          "shard_id": 1
+        }
+      ],
+      "expected": {
+        "events": [
+          {
+            "id": "f5519a47-a9da-b534-d7fc-882fc675eb49",
+            "type": "view.created",
+            "timestamp": "2026-11-23T03:23:08.718Z",
+            "workspaceId": "00000000-0000-4000-8000-00000000a000",
+            "entity": {
+              "id": "00000000-0000-4000-8000-000000000015",
+              "type": "view"
+            },
+            "authors": [
+              {
+                "id": "00000000-0000-4000-8000-000000000009",
+                "type": "person"
+              }
+            ],
+            "data": {
+              "parent": {
+                "type": "database",
+                "id": "00000000-0000-4000-8000-000000000006"
+              },
+              "data_source_id": "00000000-0000-4000-8000-000000000016"
+            },
+            "origin": "other_user",
+            "delivery": "live",
+            "web": {
+              "activityId": "00000000-0000-4000-8000-000000000072",
+              "edits": 1
+            }
+          }
+        ],
+        "noAccess": [],
+        "drift": []
+      }
+    }
+  ]
+}

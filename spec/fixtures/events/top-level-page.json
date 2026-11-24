@@ -1,0 +1,181 @@
+{
+  "description": "A page created at a teamspace root, and its title written right after (part of the creation).",
+  "source": "Test workspace, 2026-11-20/23 webhook experiments; IDs remapped, text replaced.",
+  "workspaceId": "00000000-0000-4000-8000-00000000a000",
+  "selfUserId": "00000000-0000-4000-8000-000000000002",
+  "records": [
+    {
+      "table": "block",
+      "id": "00000000-0000-4000-8000-000000000073",
+      "role": "editor",
+      "value": {
+        "id": "00000000-0000-4000-8000-000000000073",
+        "version": 2,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "Synthetic title 58"
+            ]
+          ]
+        },
+        "created_time": 1795433047623,
+        "last_edited_time": 1795433047623,
+        "parent_id": "00000000-0000-4000-8000-000000000074",
+        "parent_table": "team",
+        "alive": true,
+        "created_by_table": "notion_user",
+        "created_by_id": "00000000-0000-4000-8000-000000000002",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "00000000-0000-4000-8000-000000000002",
+        "space_id": "00000000-0000-4000-8000-00000000a000",
+        "nav_parent_table": "team",
+        "nav_parent_id": "00000000-0000-4000-8000-000000000074"
+      }
+    }
+  ],
+  "reads": [
+    {
+      "activities": [
+        {
+          "id": "00000000-0000-4000-8000-000000000075",
+          "version": 1,
+          "index": 0,
+          "type": "top-level-block-created",
+          "parent_table": "block",
+          "parent_id": "00000000-0000-4000-8000-000000000073",
+          "start_time": "1795433048310",
+          "end_time": "1795433048310",
+          "invalid": false,
+          "space_id": "00000000-0000-4000-8000-00000000a000",
+          "top_level_block_id": "00000000-0000-4000-8000-000000000073",
+          "edits": [
+            {
+              "type": "top-level-block-created",
+              "authors": [
+                {
+                  "id": "00000000-0000-4000-8000-000000000002",
+                  "table": "notion_user"
+                }
+              ],
+              "space_id": "00000000-0000-4000-8000-00000000a000",
+              "timestamp": 1795433048310,
+              "top_level_block_id": "00000000-0000-4000-8000-000000000073"
+            }
+          ],
+          "shard_id": 1
+        },
+        {
+          "id": "00000000-0000-4000-8000-000000000076",
+          "version": 1,
+          "index": 0,
+          "type": "block-edited",
+          "parent_table": "block",
+          "parent_id": "00000000-0000-4000-8000-000000000073",
+          "start_time": "1795433048310",
+          "end_time": "1795433048310",
+          "invalid": false,
+          "space_id": "00000000-0000-4000-8000-00000000a000",
+          "navigable_block_id": "00000000-0000-4000-8000-000000000073",
+          "edits": [
+            {
+              "type": "block-changed",
+              "authors": [
+                {
+                  "id": "00000000-0000-4000-8000-000000000002",
+                  "table": "notion_user"
+                }
+              ],
+              "block_id": "00000000-0000-4000-8000-000000000073",
+              "space_id": "00000000-0000-4000-8000-00000000a000",
+              "timestamp": 1795433048310,
+              "block_data": {
+                "after": {
+                  "block_value": {
+                    "id": "00000000-0000-4000-8000-000000000073",
+                    "type": "page",
+                    "alive": true,
+                    "version": 2,
+                    "space_id": "00000000-0000-4000-8000-00000000a000",
+                    "parent_id": "00000000-0000-4000-8000-000000000074",
+                    "properties": {
+                      "title": [
+                        [
+                          "Synthetic title 59"
+                        ]
+                      ]
+                    },
+                    "created_time": 1795433047623,
+                    "parent_table": "team",
+                    "created_by_id": "00000000-0000-4000-8000-000000000002",
+                    "nav_parent_id": "00000000-0000-4000-8000-000000000074",
+                    "created_by_table": "notion_user",
+                    "last_edited_time": 1795433047623,
+                    "nav_parent_table": "team",
+                    "last_edited_by_id": "00000000-0000-4000-8000-000000000002",
+                    "last_edited_by_table": "notion_user"
+                  }
+                },
+                "before": {
+                  "block_value": {
+                    "id": "00000000-0000-4000-8000-000000000073",
+                    "type": "page",
+                    "alive": true,
+                    "version": 2,
+                    "space_id": "00000000-0000-4000-8000-00000000a000",
+                    "parent_id": "00000000-0000-4000-8000-000000000074",
+                    "created_time": 1795433047623,
+                    "parent_table": "team",
+                    "created_by_id": "00000000-0000-4000-8000-000000000002",
+                    "nav_parent_id": "00000000-0000-4000-8000-000000000074",
+                    "created_by_table": "notion_user",
+                    "last_edited_time": 1795433047623,
+                    "nav_parent_table": "team",
+                    "last_edited_by_id": "00000000-0000-4000-8000-000000000002",
+                    "last_edited_by_table": "notion_user"
+                  }
+                }
+              },
+              "navigable_block_id": "00000000-0000-4000-8000-000000000073"
+            }
+          ],
+          "shard_id": 1
+        }
+      ],
+      "expected": {
+        "events": [
+          {
+            "id": "02f5f30d-de93-7233-c631-00807d76d97a",
+            "type": "page.created",
+            "timestamp": "2026-11-23T11:24:08.310Z",
+            "workspaceId": "00000000-0000-4000-8000-00000000a000",
+            "entity": {
+              "id": "00000000-0000-4000-8000-000000000073",
+              "type": "page"
+            },
+            "authors": [
+              {
+                "id": "00000000-0000-4000-8000-000000000002",
+                "type": "person"
+              }
+            ],
+            "data": {
+              "parent": {
+                "type": "team",
+                "id": "00000000-0000-4000-8000-000000000074"
+              }
+            },
+            "origin": "self_other_client",
+            "delivery": "live",
+            "web": {
+              "activityId": "00000000-0000-4000-8000-000000000075",
+              "edits": 1
+            }
+          }
+        ],
+        "noAccess": [],
+        "drift": []
+      }
+    }
+  ]
+}

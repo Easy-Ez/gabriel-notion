@@ -1,0 +1,163 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gabriel-notion.invalid/schema/event.schema.json",
+  "title": "Gabriel Notion change event envelope",
+  "description": "Fields every change event carries (spec/behavior.md §8). `data` is defined per type.",
+  "type": "object",
+  "required": [
+    "id",
+    "type",
+    "timestamp",
+    "workspaceId",
+    "entity",
+    "authors",
+    "data",
+    "origin",
+    "delivery",
+    "web"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$",
+      "description": "SHA-256 of the sorted edit keys joined by a newline, first 16 bytes formatted as a UUID."
+    },
+    "type": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "workspaceId": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+    },
+    "entity": {
+      "type": "object",
+      "required": [
+        "id",
+        "type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "type": {
+          "enum": [
+            "page",
+            "block",
+            "database",
+            "data_source",
+            "view",
+            "comment"
+          ]
+        }
+      }
+    },
+    "authors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "type"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "type": {
+            "enum": [
+              "person",
+              "bot"
+            ]
+          }
+        }
+      }
+    },
+    "data": {
+      "type": "object"
+    },
+    "origin": {
+      "enum": [
+        "this_client",
+        "self_other_client",
+        "other_user"
+      ]
+    },
+    "delivery": {
+      "enum": [
+        "live",
+        "backfill"
+      ]
+    },
+    "web": {
+      "type": "object",
+      "description": "Web-only detail: the activity, how many edits were folded in, and the record before / after for single-edit events.",
+      "properties": {
+        "activityId": {
+          "type": "string"
+        },
+        "edits": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "before": {},
+        "after": {}
+      }
+    }
+  },
+  "$defs": {
+    "parent": {
+      "type": "object",
+      "required": [
+        "type",
+        "id"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "enum": [
+            "page",
+            "block",
+            "database",
+            "space",
+            "team"
+          ]
+        },
+        "id": {
+          "type": "string"
+        },
+        "data_source_id": {
+          "type": "string"
+        }
+      }
+    },
+    "updatedBlocks": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "type"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "type": {
+            "enum": [
+              "block",
+              "page"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

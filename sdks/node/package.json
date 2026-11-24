@@ -1,0 +1,64 @@
+{
+  "name": "gabriel-notion",
+  "version": "0.1.0",
+  "description": "Read, write and watch Notion through the signed-in web session, with webhook-compatible change events",
+  "license": "MIT",
+  "author": "EzEasy",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Easy-Ez/gabriel-notion.git",
+    "directory": "sdks/node"
+  },
+  "homepage": "https://github.com/Easy-Ez/gabriel-notion/tree/main/sdks/node#readme",
+  "bugs": {
+    "url": "https://github.com/Easy-Ez/gabriel-notion/issues"
+  },
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "bin": {
+    "gabriel-notion": "./dist/cli/gabriel-notion.js"
+  },
+  "files": [
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md",
+    "dist"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "sideEffects": false,
+  "keywords": [
+    "notion",
+    "realtime",
+    "websocket",
+    "webhooks",
+    "sdk",
+    "ai-agent"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:integration": "vitest run test/integration",
+    "prepack": "pnpm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "ajv": "8.17.1",
+    "typescript": "^5.9.3",
+    "vitest": "^5.0.5"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

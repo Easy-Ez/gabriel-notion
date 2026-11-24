@@ -1,0 +1,554 @@
+{
+  "description": "One merged block-edited activity on a page: a new paragraph, a new child page and a new inline database; a later activity edits the paragraph.",
+  "source": "Test workspace, 2026-11-20/23 webhook experiments; IDs remapped, text replaced.",
+  "workspaceId": "00000000-0000-4000-8000-00000000a000",
+  "selfUserId": "00000000-0000-4000-8000-000000000002",
+  "records": [
+    {
+      "table": "block",
+      "id": "00000000-0000-4000-8000-000000000003",
+      "role": "editor",
+      "value": {
+        "id": "00000000-0000-4000-8000-000000000003",
+        "version": 45,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "Synthetic title 4"
+            ]
+          ]
+        },
+        "content": [
+          "00000000-0000-4000-8000-000000000004",
+          "00000000-0000-4000-8000-000000000005",
+          "00000000-0000-4000-8000-000000000006",
+          "00000000-0000-4000-8000-000000000007"
+        ],
+        "discussions": [
+          "00000000-0000-4000-8000-000000000008"
+        ],
+        "created_time": 1795403793990,
+        "last_edited_time": 1795406226226,
+        "parent_id": "00000000-0000-4000-8000-00000000a000",
+        "parent_table": "space",
+        "alive": true,
+        "created_by_table": "notion_user",
+        "created_by_id": "00000000-0000-4000-8000-000000000009",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "00000000-0000-4000-8000-000000000009",
+        "space_id": "00000000-0000-4000-8000-00000000a000",
+        "nav_parent_table": "space",
+        "nav_parent_id": "00000000-0000-4000-8000-00000000a000"
+      }
+    },
+    {
+      "table": "block",
+      "id": "00000000-0000-4000-8000-000000000004",
+      "role": "editor",
+      "value": {
+        "id": "00000000-0000-4000-8000-000000000004",
+        "version": 73,
+        "type": "text",
+        "properties": {
+          "title": [
+            [
+              "Synthetic title 5"
+            ]
+          ]
+        },
+        "created_time": 1795403881311,
+        "last_edited_time": 1795406256414,
+        "parent_id": "00000000-0000-4000-8000-000000000003",
+        "parent_table": "block",
+        "alive": true,
+        "created_by_table": "notion_user",
+        "created_by_id": "00000000-0000-4000-8000-000000000009",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "00000000-0000-4000-8000-000000000009",
+        "space_id": "00000000-0000-4000-8000-00000000a000",
+        "nav_parent_table": "block",
+        "nav_parent_id": "00000000-0000-4000-8000-000000000003"
+      }
+    },
+    {
+      "table": "block",
+      "id": "00000000-0000-4000-8000-000000000005",
+      "role": "editor",
+      "value": {
+        "id": "00000000-0000-4000-8000-000000000005",
+        "version": 7,
+        "type": "page",
+        "properties": {
+          "title": [
+            [
+              "Synthetic title 6"
+            ]
+          ]
+        },
+        "content": [
+          "00000000-0000-4000-8000-000000000012"
+        ],
+        "created_time": 1795404027977,
+        "last_edited_time": 1795404027977,
+        "parent_id": "00000000-0000-4000-8000-000000000003",
+        "parent_table": "block",
+        "alive": true,
+        "created_by_table": "notion_user",
+        "created_by_id": "00000000-0000-4000-8000-000000000009",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "00000000-0000-4000-8000-000000000009",
+        "space_id": "00000000-0000-4000-8000-00000000a000",
+        "nav_parent_table": "block",
+        "nav_parent_id": "00000000-0000-4000-8000-000000000003"
+      }
+    },
+    {
+      "table": "block",
+      "id": "00000000-0000-4000-8000-000000000006",
+      "role": "editor",
+      "value": {
+        "id": "00000000-0000-4000-8000-000000000006",
+        "version": 4,
+        "type": "collection_view",
+        "view_ids": [
+          "00000000-0000-4000-8000-000000000015"
+        ],
+        "collection_id": "00000000-0000-4000-8000-000000000016",
+        "created_time": 1795404097000,
+        "last_edited_time": 1795404097000,
+        "parent_id": "00000000-0000-4000-8000-000000000003",
+        "parent_table": "block",
+        "alive": true,
+        "created_by_table": "notion_user",
+        "created_by_id": "00000000-0000-4000-8000-000000000009",
+        "last_edited_by_table": "notion_user",
+        "last_edited_by_id": "00000000-0000-4000-8000-000000000009",
+        "space_id": "00000000-0000-4000-8000-00000000a000",
+        "nav_parent_table": "block",
+        "nav_parent_id": "00000000-0000-4000-8000-000000000003"
+      }
+    }
+  ],
+  "reads": [
+    {
+      "activities": [
+        {
+          "id": "00000000-0000-4000-8000-000000000017",
+          "version": 10,
+          "index": 0,
+          "type": "block-edited",
+          "parent_table": "block",
+          "parent_id": "00000000-0000-4000-8000-000000000003",
+          "start_time": "1795403794874",
+          "end_time": "1795404097551",
+          "invalid": false,
+          "space_id": "00000000-0000-4000-8000-00000000a000",
+          "navigable_block_id": "00000000-0000-4000-8000-000000000003",
+          "edits": [
+            {
+              "type": "block-created",
+              "authors": [
+                {
+                  "id": "00000000-0000-4000-8000-000000000009",
+                  "table": "notion_user"
+                }
+              ],
+              "block_id": "00000000-0000-4000-8000-000000000004",
+              "space_id": "00000000-0000-4000-8000-00000000a000",
+              "timestamp": 1795403894466,
+              "block_data": {
+                "block_value": {
+                  "id": "00000000-0000-4000-8000-000000000004",
+                  "type": "text",
+                  "alive": true,
+                  "version": 37,
+                  "space_id": "00000000-0000-4000-8000-00000000a000",
+                  "parent_id": "00000000-0000-4000-8000-000000000003",
+                  "properties": {
+                    "title": [
+                      [
+                        "Synthetic title 7"
+                      ]
+                    ]
+                  },
+                  "created_time": 1795403881311,
+                  "parent_table": "block",
+                  "created_by_id": "00000000-0000-4000-8000-000000000009",
+                  "nav_parent_id": "00000000-0000-4000-8000-000000000003",
+                  "created_by_table": "notion_user",
+                  "last_edited_time": 1795403893517,
+                  "nav_parent_table": "block",
+                  "last_edited_by_id": "00000000-0000-4000-8000-000000000009",
+                  "last_edited_by_table": "notion_user"
+                }
+              },
+              "navigable_block_id": "00000000-0000-4000-8000-000000000003"
+            },
+            {
+              "type": "block-changed",
+              "authors": [
+                {
+                  "id": "00000000-0000-4000-8000-000000000009",
+                  "table": "notion_user"
+                },
+                {
+                  "id": "00000000-0000-4000-8000-000000000002",
+                  "table": "notion_user"
+                }
+              ],
+              "block_id": "00000000-0000-4000-8000-000000000003",
+              "space_id": "00000000-0000-4000-8000-00000000a000",
+              "timestamp": 1795404018168,
+              "block_data": {
+                "after": {
+                  "block_value": {
+                    "id": "00000000-0000-4000-8000-000000000003",
+                    "type": "page",
+                    "alive": true,
+                    "content": [
+                      "00000000-0000-4000-8000-000000000004",
+                      "00000000-0000-4000-8000-000000000012"
+                    ],
+                    "version": 15,
+                    "space_id": "00000000-0000-4000-8000-00000000a000",
+                    "parent_id": "00000000-0000-4000-8000-00000000a000",
+                    "properties": {
+                      "title": [
+                        [
+                          "Synthetic title 8"
+                        ]
+                      ]
+                    },
+                    "discussions": [
+                      "00000000-0000-4000-8000-000000000008"
+                    ],
+                    "created_time": 1795403793990,
+                    "parent_table": "space",
+                    "created_by_id": "00000000-0000-4000-8000-000000000009",
+                    "nav_parent_id": "00000000-0000-4000-8000-00000000a000",
+                    "created_by_table": "notion_user",
+                    "last_edited_time": 1795403881314,
+                    "nav_parent_table": "space",
+                    "last_edited_by_id": "00000000-0000-4000-8000-000000000009",
+                    "last_edited_by_table": "notion_user"
+                  }
+                },
+                "before": {
+                  "block_value": {
+                    "id": "00000000-0000-4000-8000-000000000003",
+                    "type": "page",
+                    "alive": true,
+                    "version": 3,
+                    "space_id": "00000000-0000-4000-8000-00000000a000",
+                    "parent_id": "00000000-0000-4000-8000-00000000a000",
+                    "created_time": 1795403793990,
+                    "parent_table": "space",
+                    "created_by_id": "00000000-0000-4000-8000-000000000009",
+                    "nav_parent_id": "00000000-0000-4000-8000-00000000a000",
+                    "created_by_table": "notion_user",
+                    "last_edited_time": 1795403793990,
+                    "nav_parent_table": "space",
+                    "last_edited_by_id": "00000000-0000-4000-8000-000000000009",
+                    "last_edited_by_table": "notion_user"
+                  }
+                }
+              },
+              "navigable_block_id": "00000000-0000-4000-8000-000000000003"
+            },
+            {
+              "type": "block-created",
+              "authors": [
+                {
+                  "id": "00000000-0000-4000-8000-000000000009",
+                  "table": "notion_user"
+                }
+              ],
+              "block_id": "00000000-0000-4000-8000-000000000005",
+              "space_id": "00000000-0000-4000-8000-00000000a000",
+              "timestamp": 1795404028521,
+              "block_data": {
+                "block_value": {
+                  "id": "00000000-0000-4000-8000-000000000005",
+                  "type": "page",
+                  "alive": true,
+                  "version": 3,
+                  "space_id": "00000000-0000-4000-8000-00000000a000",
+                  "parent_id": "00000000-0000-4000-8000-000000000003",
+                  "properties": {
+                    "title": [
+                      [
+                        "Synthetic title 9"
+                      ]
+                    ]
+                  },
+                  "created_time": 1795404027977,
+                  "parent_table": "block",
+                  "created_by_id": "00000000-0000-4000-8000-000000000009",
+                  "nav_parent_id": "00000000-0000-4000-8000-000000000003",
+                  "created_by_table": "notion_user",
+                  "last_edited_time": 1795404027977,
+                  "nav_parent_table": "block",
+                  "last_edited_by_id": "00000000-0000-4000-8000-000000000009",
+                  "last_edited_by_table": "notion_user"
+                }
+              },
+              "navigable_block_id": "00000000-0000-4000-8000-000000000003"
+            },
+            {
+              "type": "block-created",
+              "authors": [
+                {
+                  "id": "00000000-0000-4000-8000-000000000009",
+                  "table": "notion_user"
+                }
+              ],
+              "block_id": "00000000-0000-4000-8000-000000000006",
+              "space_id": "00000000-0000-4000-8000-00000000a000",
+              "timestamp": 1795404097551,
+              "block_data": {
+                "block_value": {
+                  "id": "00000000-0000-4000-8000-000000000006",
+                  "type": "collection_view",
+                  "alive": true,
+                  "version": 2,
+                  "space_id": "00000000-0000-4000-8000-00000000a000",
+                  "view_ids": [
+                    "00000000-0000-4000-8000-000000000015"
+                  ],
+                  "parent_id": "00000000-0000-4000-8000-000000000003",
+                  "created_time": 1795404097000,
+                  "parent_table": "block",
+                  "collection_id": "00000000-0000-4000-8000-000000000016",
+                  "created_by_id": "00000000-0000-4000-8000-000000000009",
+                  "nav_parent_id": "00000000-0000-4000-8000-000000000003",
+                  "created_by_table": "notion_user",
+                  "last_edited_time": 1795404097000,
+                  "nav_parent_table": "block",
+                  "last_edited_by_id": "00000000-0000-4000-8000-000000000009",
+                  "last_edited_by_table": "notion_user"
+                }
+              },
+              "navigable_block_id": "00000000-0000-4000-8000-000000000003"
+            }
+          ],
+          "shard_id": 1
+        },
+        {
+          "id": "00000000-0000-4000-8000-000000000018",
+          "version": 18,
+          "index": 1,
+          "type": "block-edited",
+          "parent_table": "block",
+          "parent_id": "00000000-0000-4000-8000-000000000003",
+          "start_time": "1795406086586",
+          "end_time": "1795406256989",
+          "invalid": false,
+          "space_id": "00000000-0000-4000-8000-00000000a000",
+          "navigable_block_id": "00000000-0000-4000-8000-000000000003",
+          "edits": [
+            {
+              "type": "block-changed",
+              "authors": [
+                {
+                  "id": "00000000-0000-4000-8000-000000000009",
+                  "table": "notion_user"
+                }
+              ],
+              "block_id": "00000000-0000-4000-8000-000000000004",
+              "space_id": "00000000-0000-4000-8000-00000000a000",
+              "timestamp": 1795406256989,
+              "block_data": {
+                "after": {
+                  "block_value": {
+                    "id": "00000000-0000-4000-8000-000000000004",
+                    "type": "text",
+                    "alive": true,
+                    "version": 73,
+                    "space_id": "00000000-0000-4000-8000-00000000a000",
+                    "parent_id": "00000000-0000-4000-8000-000000000003",
+                    "properties": {
+                      "title": [
+                        [
+                          "Synthetic title 10"
+                        ]
+                      ]
+                    },
+                    "created_time": 1795403881311,
+                    "parent_table": "block",
+                    "created_by_id": "00000000-0000-4000-8000-000000000009",
+                    "nav_parent_id": "00000000-0000-4000-8000-000000000003",
+                    "created_by_table": "notion_user",
+                    "last_edited_time": 1795406256414,
+                    "nav_parent_table": "block",
+                    "last_edited_by_id": "00000000-0000-4000-8000-000000000009",
+                    "last_edited_by_table": "notion_user"
+                  }
+                },
+                "before": {
+                  "block_value": {
+                    "id": "00000000-0000-4000-8000-000000000004",
+                    "type": "text",
+                    "alive": true,
+                    "version": 37,
+                    "space_id": "00000000-0000-4000-8000-00000000a000",
+                    "parent_id": "00000000-0000-4000-8000-000000000003",
+                    "properties": {
+                      "title": [
+                        [
+                          "Synthetic title 11"
+                        ]
+                      ]
+                    },
+                    "created_time": 1795403881311,
+                    "parent_table": "block",
+                    "created_by_id": "00000000-0000-4000-8000-000000000009",
+                    "nav_parent_id": "00000000-0000-4000-8000-000000000003",
+                    "created_by_table": "notion_user",
+                    "last_edited_time": 1795403893517,
+                    "nav_parent_table": "block",
+                    "last_edited_by_id": "00000000-0000-4000-8000-000000000009",
+                    "last_edited_by_table": "notion_user"
+                  }
+                }
+              },
+              "navigable_block_id": "00000000-0000-4000-8000-000000000003"
+            }
+          ],
+          "shard_id": 1
+        }
+      ],
+      "expected": {
+        "events": [
+          {
+            "id": "634faaae-ff2e-7c59-4420-d45b3d753ff2",
+            "type": "page.properties_updated",
+            "timestamp": "2026-11-23T03:20:18.168Z",
+            "workspaceId": "00000000-0000-4000-8000-00000000a000",
+            "entity": {
+              "id": "00000000-0000-4000-8000-000000000003",
+              "type": "page"
+            },
+            "authors": [
+              {
+                "id": "00000000-0000-4000-8000-000000000009",
+                "type": "person"
+              },
+              {
+                "id": "00000000-0000-4000-8000-000000000002",
+                "type": "person"
+              }
+            ],
+            "data": {
+              "parent": {
+                "type": "space",
+                "id": "00000000-0000-4000-8000-00000000a000"
+              },
+              "updated_properties": [
+                "title"
+              ]
+            },
+            "origin": "other_user",
+            "delivery": "live",
+            "web": {
+              "activityId": "00000000-0000-4000-8000-000000000017",
+              "edits": 1
+            }
+          },
+          {
+            "id": "b05f9ce8-35f3-aad3-20dc-e04ed8f0c979",
+            "type": "page.created",
+            "timestamp": "2026-11-23T03:20:28.521Z",
+            "workspaceId": "00000000-0000-4000-8000-00000000a000",
+            "entity": {
+              "id": "00000000-0000-4000-8000-000000000005",
+              "type": "page"
+            },
+            "authors": [
+              {
+                "id": "00000000-0000-4000-8000-000000000009",
+                "type": "person"
+              }
+            ],
+            "data": {
+              "parent": {
+                "type": "page",
+                "id": "00000000-0000-4000-8000-000000000003"
+              }
+            },
+            "origin": "other_user",
+            "delivery": "live",
+            "web": {
+              "activityId": "00000000-0000-4000-8000-000000000017",
+              "edits": 1
+            }
+          },
+          {
+            "id": "02bcc0bd-3905-1053-a152-8758b8369040",
+            "type": "database.created",
+            "timestamp": "2026-11-23T03:21:37.551Z",
+            "workspaceId": "00000000-0000-4000-8000-00000000a000",
+            "entity": {
+              "id": "00000000-0000-4000-8000-000000000006",
+              "type": "database"
+            },
+            "authors": [
+              {
+                "id": "00000000-0000-4000-8000-000000000009",
+                "type": "person"
+              }
+            ],
+            "data": {
+              "parent": {
+                "type": "page",
+                "id": "00000000-0000-4000-8000-000000000003"
+              }
+            },
+            "origin": "other_user",
+            "delivery": "live",
+            "web": {
+              "activityId": "00000000-0000-4000-8000-000000000017",
+              "edits": 1
+            }
+          },
+          {
+            "id": "ead4814f-56d7-bdc2-5039-01cd97ac091f",
+            "type": "page.content_updated",
+            "timestamp": "2026-11-23T03:57:36.989Z",
+            "workspaceId": "00000000-0000-4000-8000-00000000a000",
+            "entity": {
+              "id": "00000000-0000-4000-8000-000000000003",
+              "type": "page"
+            },
+            "authors": [
+              {
+                "id": "00000000-0000-4000-8000-000000000009",
+                "type": "person"
+              }
+            ],
+            "data": {
+              "parent": {
+                "type": "space",
+                "id": "00000000-0000-4000-8000-00000000a000"
+              },
+              "updated_blocks": [
+                {
+                  "id": "00000000-0000-4000-8000-000000000004",
+                  "type": "block"
+                }
+              ]
+            },
+            "origin": "other_user",
+            "delivery": "live",
+            "web": {
+              "activityId": "00000000-0000-4000-8000-000000000018",
+              "edits": 2
+            }
+          }
+        ],
+        "noAccess": [],
+        "drift": []
+      }
+    }
+  ]
+}

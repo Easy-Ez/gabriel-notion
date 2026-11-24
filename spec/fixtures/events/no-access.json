@@ -1,0 +1,57 @@
+{
+  "description": "Derived: the account cannot read the page (role none), so its activity produces no event.",
+  "source": "Test workspace, 2026-11-20/23 webhook experiments; IDs remapped, text replaced.",
+  "workspaceId": "00000000-0000-4000-8000-00000000a000",
+  "selfUserId": "00000000-0000-4000-8000-000000000002",
+  "records": [
+    {
+      "table": "block",
+      "id": "00000000-0000-4000-8000-000000000003",
+      "role": "none"
+    }
+  ],
+  "reads": [
+    {
+      "activities": [
+        {
+          "id": "00000000-0000-4000-8000-000000000010",
+          "version": 1,
+          "index": 9,
+          "type": "page-locked",
+          "parent_table": "block",
+          "parent_id": "00000000-0000-4000-8000-000000000003",
+          "start_time": "1795501044610",
+          "end_time": "1795501044610",
+          "invalid": false,
+          "space_id": "00000000-0000-4000-8000-00000000a000",
+          "navigable_block_id": "00000000-0000-4000-8000-000000000003",
+          "edits": [
+            {
+              "type": "page-locked",
+              "authors": [
+                {
+                  "id": "00000000-0000-4000-8000-000000000002",
+                  "table": "notion_user"
+                }
+              ],
+              "space_id": "00000000-0000-4000-8000-00000000a000",
+              "timestamp": 1795501044610,
+              "navigable_block_id": "00000000-0000-4000-8000-000000000003"
+            }
+          ],
+          "shard_id": 1
+        }
+      ],
+      "expected": {
+        "events": [],
+        "noAccess": [
+          {
+            "table": "block",
+            "id": "00000000-0000-4000-8000-000000000003"
+          }
+        ],
+        "drift": []
+      }
+    }
+  ]
+}
