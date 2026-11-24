@@ -21,11 +21,21 @@ client.on("page.content_updated", (e) => console.log(e.entity.id, e.data.updated
 await client.start();
 ```
 
+## Documentation
+
+| Document | For |
+| --- | --- |
+| [使用指南（中文）](docs/zh-CN/guide.md) | Setup, reading and writing, events, AI safety, reliability, recipes, FAQ |
+| [Node.js API reference](sdks/node/README.md) | Every method, option, type, event and error |
+| [Architecture](docs/architecture.md) | How the SDK is built and why |
+| [Behavior specification](spec/behavior.md) | The contract every language's SDK follows |
+| [Releasing](docs/releasing.md) | Cutting a release |
+
 | Path | Contents |
 | --- | --- |
-| [`sdks/node`](sdks/node) | Node.js SDK (`gabriel-notion` on npm) — start with its [README](sdks/node/README.md) |
+| [`sdks/node`](sdks/node) | Node.js SDK (`gabriel-notion` on npm) and the `gabriel-notion` CLI |
 | [`spec`](spec) | Language-neutral behavior contract, event JSON Schemas and shared fixtures |
-| [`docs/releasing.md`](docs/releasing.md) | How releases are cut and published |
+| [`docs`](docs/README.md) | Guide, architecture, releasing |
 
 ## Development
 

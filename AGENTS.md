@@ -9,7 +9,7 @@ repository is organized and which rules every change follows.
 ```text
 spec/            Language-neutral contract: behavior.md, event JSON Schemas, shared fixtures
 sdks/node/       TypeScript reference SDK (npm: gabriel-notion) and the `gabriel-notion` CLI
-docs/            Curated public docs (releasing)
+docs/            Curated public docs: user guide (zh-CN), architecture, releasing
 scripts/         Leak check
 ```
 

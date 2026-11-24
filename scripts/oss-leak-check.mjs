@@ -29,7 +29,7 @@ const ALLOWED_UUIDS = new Set([
 const UUID_EXEMPT = /^spec\/fixtures\//;
 
 // Curated public docs: anything else under docs/ is rejected (research stays in the private repo).
-const PUBLIC_DOCS = new Set(["docs/releasing.md"]);
+const PUBLIC_DOCS = new Set(["docs/README.md", "docs/architecture.md", "docs/releasing.md", "docs/zh-CN/guide.md"]);
 
 // References to the private research and design material.
 const INTERNAL_MARKERS = [
