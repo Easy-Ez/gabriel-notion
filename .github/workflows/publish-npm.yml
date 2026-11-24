@@ -3,9 +3,7 @@ name: Package the Node.js SDK, attach it to a GitHub Release, publish to npm
 # Push a tag node-v<version> (matching sdks/node/package.json) to release.
 #   package  build, test, `npm pack`, rehearse `npm publish`
 #   release  attach the tarball to the GitHub Release for the tag (pre-release for -alpha etc.)
-#   publish  npm, only when the repository variable NPM_PUBLISH is "true":
-#            Trusted Publishing (OIDC, no token) once configured on npmjs.com; for the very first
-#            publish, a short-lived NPM_TOKEN secret (see docs/releasing.md)
+#   publish  npm Trusted Publishing (OIDC from the `npm` environment; no token)
 
 on:
   push:
@@ -85,7 +83,7 @@ jobs:
             --notes "Install: npm install https://github.com/$GITHUB_REPOSITORY/releases/download/$GITHUB_REF_NAME/gabriel-notion-$VERSION.tgz"
 
   publish:
-    if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/node-v') && vars.NPM_PUBLISH == 'true'
+    if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/node-v') && github.repository == 'Easy-Ez/gabriel-notion'
     needs: package
     runs-on: ubuntu-latest
     environment: npm
@@ -103,16 +101,7 @@ jobs:
         with:
           name: npm-distribution
           path: dist
-      - name: Publish (first release, with a short-lived token)
-        if: env.HAS_TOKEN == 'true'
+      - name: Publish the verified tarball with Trusted Publishing
         env:
-          HAS_TOKEN: ${{ secrets.NPM_TOKEN != '' }}
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-          VERSION: ${{ needs.package.outputs.version }}
-        run: npm publish ./dist/gabriel-notion-*.tgz $([[ "$VERSION" == *-* ]] && echo --tag next)
-      - name: Publish with Trusted Publishing
-        if: env.HAS_TOKEN != 'true'
-        env:
-          HAS_TOKEN: ${{ secrets.NPM_TOKEN != '' }}
           VERSION: ${{ needs.package.outputs.version }}
         run: npm publish ./dist/gabriel-notion-*.tgz $([[ "$VERSION" == *-* ]] && echo --tag next)
