@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+## [0.1.2] - 2026-11-25
+
+- Documentation: the package README is now a complete API reference (every method, property value
+  formats, events and their data, health, errors, configuration, CLI). No code changes since 0.1.1.
+
 ## [0.1.1] - 2026-11-24
 
 - First release published from GitHub Actions with npm Trusted Publishing, with provenance. No
